@@ -1,0 +1,32 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.topNav {
+  height: 80px;
+  background-color: #A52422;
+  width: 100%;
+  top: 0;
+  display: flex;
+  align-items: center;
+  padding-left: 75px;
+  justify-content: left;
+  margin-bottom: 10px;
+  font-size: 36px;
+  font-weight: bolder;
+  font-family: monospace;
+}
+
+.topNav span {
+  margin-left: 20px;
+}
+
+.qrContainer {
+  height: 500px;
+  width: 500px;
+  margin: 10px;
+}
+
